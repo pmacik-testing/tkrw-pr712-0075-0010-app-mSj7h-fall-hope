@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-womq
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0010-tenant/tkrw-pr712-0075-0010-app/devfile-sample-womq@sha256:0a0701122ffa5fbd58e9ca07171c918d702b384ae46872ae450bba25188295b3
         name: my-nodejs
         ports:
         - containerPort: 3001
